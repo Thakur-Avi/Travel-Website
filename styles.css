@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.section h2 {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+footer h3 {
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-item {
+    display: none;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial cite {
+    font-weight: bold;
+}
+
+.sr-only {
+    color: #333;
+}
